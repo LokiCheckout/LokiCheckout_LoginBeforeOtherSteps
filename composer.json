@@ -1,21 +1,21 @@
 {
-  "name": "loki-checkout/magento2-login-before-other-steps",
-  "version": "1.0.0",
-  "description": "N/A",
-  "type": "magento2-module",
-  "require": {
-    "magento/framework": "*",
-    "loki-checkout/magento2-core": "2.1.*"
-  },
-  "license": [
-    "OSL-3.0"
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "loki-checkout/magento2-login-before-other-steps",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "loki-checkout/magento2-core": "2.1.*",
+        "magento/framework": "*"
+    },
+    "license": [
+        "OSL-3.0"
     ],
-    "psr-4": {
-      "LokiCheckout\\LoginBeforeOtherSteps\\": ""
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LokiCheckout\\LoginBeforeOtherSteps\\": ""
+        }
     }
-  }
 }
