@@ -46,7 +46,7 @@ class LoginStepViewModel extends ComponentViewModel implements StepViewModelInte
         return 'none';
     }
 
-    public function validate(): true|array
+    public function validate(): bool|array
     {
         if (true === $this->getContext()->getCustomerSession()->isLoggedIn()) {
             return true;
