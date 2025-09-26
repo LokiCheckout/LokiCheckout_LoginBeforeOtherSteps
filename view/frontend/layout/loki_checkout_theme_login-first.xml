@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="loki_checkout_theme_default"/>
+
+    <body>
+        <referenceBlock name="loki-checkout.steps">
+            <block
+                name="loki-checkout.steps.login"
+                as="login"
+                template="LokiCheckout_Core::generic/container.phtml"/>
+        </referenceBlock>
+
+        <move element="loki-checkout.login.form.inner" destination="loki-checkout.steps.login" />
+
+        <referenceBlock name="loki-checkout.login" remove="true"/>
+    </body>
+</page>

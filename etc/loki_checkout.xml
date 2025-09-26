@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:LokiCheckout_Core:etc/loki_checkout.xsd">
+    <themes>
+        <theme name="login-first" label="Login Before Other Steps">
+            <steps>
+                <step name="login" blockName="loki-checkout.steps.login" sortOrder="10" />
+                <step name="shipping" blockName="loki-checkout.steps.shipping" sortOrder="20" />
+                <step name="billing" blockName="loki-checkout.steps.billing" sortOrder="30" />
+            </steps>
+        </theme>
+    </themes>
+</config>
