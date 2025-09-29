@@ -1,6 +1,9 @@
 {
     "sequence": [
-        "LokiCheckout_Core"
+        "LokiCheckout_Core",
+        "Loki_Components",
+        "Magento_Customer",
+        "Magento_Store"
     ],
     "modules": [
         "LokiCheckout_Core",
@@ -31,7 +34,5 @@
         "loki-checkout.steps.login"
     ],
     "config": [],
-    "tests": [],
-    "phpcs_severity": "8",
-    "phpstan_level": "5"
+    "tests": []
 }
