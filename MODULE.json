@@ -34,5 +34,6 @@
         "loki-checkout.steps.login"
     ],
     "config": [],
-    "tests": []
+    "tests": [],
+    "phpcs_severity": "8"
 }
