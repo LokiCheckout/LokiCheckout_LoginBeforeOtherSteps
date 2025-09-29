@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 29 September 2025
+### Fixed
+- Remove component
+
 ## [1.0.1] - 29 September 2025
 ### Fixed
 - Sort entries of module.xml file
