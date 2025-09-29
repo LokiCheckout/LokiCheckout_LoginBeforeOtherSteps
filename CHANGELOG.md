@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 29 September 2025
+### Fixed
+- Sort entries of module.xml file
+- Sort dependencies of composer.json
+- Update MODULE.json
+- Update deps
+- Update MODULE.json with PHPStan level 5
+- Update MODULE.json with PHPCS severity 8
+- Fix PHP 8.1 issue
+
 ## [1.0.0] - 26 September 2025
 ### Added
 - Initial release
