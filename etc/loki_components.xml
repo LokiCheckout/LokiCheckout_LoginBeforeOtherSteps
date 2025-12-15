@@ -4,6 +4,10 @@
     <component
         name="loki-checkout.steps.login"
         context="LokiCheckout\Core\Component\Base\Generic\CheckoutContext"
-        viewModel="LokiCheckout\LoginBeforeOtherSteps\Component\Checkout\Step\LoginStep\LoginStepViewModel">
+        viewModel="LokiCheckout\LoginBeforeOtherSteps\Component\Checkout\Step\LoginStep\LoginStepViewModel"
+    />
+
+    <component name="loki-checkout.login.form.inner">
+        <target name="header.customer"/>
     </component>
 </components>

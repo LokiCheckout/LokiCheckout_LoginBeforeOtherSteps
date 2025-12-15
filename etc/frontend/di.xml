@@ -8,4 +8,12 @@
     <type name="LokiCheckout\Core\Component\Checkout\Step\BillingStep\BillingStepViewModel">
         <plugin name="LokiCheckout_LoginBeforeOtherSteps::disableStepForGuest" type="LokiCheckout\LoginBeforeOtherSteps\Plugin\DisableBillingStepForGuestPlugin"/>
     </type>
+
+    <type name="Loki\Components\Observer\AddDomIdToBlock">
+        <arguments>
+            <argument name="blockNames" xsi:type="array">
+                <item name="header.customer" xsi:type="string">header.customer</item>
+            </argument>
+        </arguments>
+    </type>
 </config>
