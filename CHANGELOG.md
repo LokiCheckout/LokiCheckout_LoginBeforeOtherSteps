@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 15 December 2025
+### Fixed
+- Properly refresh Hyva header.customer block as well
+- Update composer keywords
+- Update composer keywords
+
 ## [1.0.2] - 29 September 2025
 ### Fixed
 - Remove component

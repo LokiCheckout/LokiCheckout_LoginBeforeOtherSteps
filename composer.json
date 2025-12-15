@@ -1,6 +1,6 @@
 {
     "name": "loki-checkout/magento2-login-before-other-steps",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "N/A",
     "type": "magento2-module",
     "keywords": [
