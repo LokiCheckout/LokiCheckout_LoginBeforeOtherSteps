@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4] - 17 December 2025
+### Fixed
+- Copy generic CI/CD files
+- Update GitHubActions
+
 ## [1.0.3] - 15 December 2025
 ### Fixed
 - Properly refresh Hyva header.customer block as well
