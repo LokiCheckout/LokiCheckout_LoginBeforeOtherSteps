@@ -54,9 +54,4 @@ class LoginStepViewModel extends ComponentViewModel implements StepViewModelInte
 
         return [__('You need to login')];
     }
-
-    /*public function getJsComponentName(): ?string
-    {
-        return 'LoginBeforeOtherStepsComponent';
-    }*/
 }
