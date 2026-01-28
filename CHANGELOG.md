@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.6] - 28 January 2026
+### Fixed
+- Improve resolving step from given block
+
 ## [1.0.5] - 23 January 2026
 ### Fixed
 - Add new GitHub Action workflows
