@@ -1,11 +1,11 @@
 # LokiCheckout_LoginBeforeOtherSteps
 
-**This is an addon Magento 2 module for the LokiCheckout. It adds a new theme *Login Before Other Steps* (`login-first`) to the LokiCheckout, requiring visitors to login in a first step before accessing other steps like the shipping and the billing step.**
+**This is an addon Magento 2 module for the LokiCheckout. It adds a new skin *Login Before Other Steps* (`login-first`) to the LokiCheckout, requiring visitors to login in a first step before accessing other steps like the shipping and the billing step.**
 
 ## Installation
 Install this package via composer:
 ```bash
-composer require loki-checkout/magento2-login-before-other-steps
+composer require loki-checkout/magento2-skin-login-before-other-steps
 ```
 
 Next, enable this module:
