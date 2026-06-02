@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.7] - 02 June 2026
+### Fixed
+- Rename label of skin
+- Rename `theme` to `skin`
+
 ## [1.0.6] - 28 January 2026
 ### Fixed
 - Improve resolving step from given block

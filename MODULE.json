@@ -37,7 +37,7 @@
     "config": [],
     "tests": [],
     "module_name": "LokiCheckout_LoginBeforeOtherSteps",
-    "composer_name": "loki-checkout/magento2-login-before-other-steps",
+    "composer_name": "loki-checkout/magento2-skin-login-before-other-steps",
     "php_versions": [
         "8.1",
         "8.2",

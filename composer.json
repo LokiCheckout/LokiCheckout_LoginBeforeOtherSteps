@@ -1,6 +1,6 @@
 {
     "name": "loki-checkout/magento2-skin-login-before-other-steps",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Checkout skin to add a new login step before all other steps",
     "type": "magento2-module",
     "keywords": [
