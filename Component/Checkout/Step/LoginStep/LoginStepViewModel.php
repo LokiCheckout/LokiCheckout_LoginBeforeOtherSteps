@@ -4,6 +4,7 @@ namespace LokiCheckout\LoginBeforeOtherSteps\Component\Checkout\Step\LoginStep;
 
 use LokiCheckout\Core\Component\Base\Generic\CheckoutContext;
 use LokiCheckout\Core\Component\Checkout\Step\StepViewModelInterface;
+use Loki\Components\Attribute\JsProperty;
 use Loki\Components\Component\ComponentViewModel;
 
 /**
@@ -41,6 +42,7 @@ class LoginStepViewModel extends ComponentViewModel implements StepViewModelInte
     }
 
 
+    #[JsProperty(name: 'step')]
     public function getStep(): string
     {
         return 'none';
