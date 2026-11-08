@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.8] - 08 November 2026
+### Fixed
+- Add JsProperty attribute to getStep() override
+
 ## [1.0.7] - 02 June 2026
 ### Fixed
 - Rename label of skin
